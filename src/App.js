@@ -13,15 +13,16 @@ class App extends React.Component{
   }
   //algortihm to encrypt/decrypt the entered text
   algorithm(text){
+      
       //initializing the empty string for storing the trasformation result
       var result='';
       //converting the input text to lowercase
       text=text.toLowerCase();
-      // iterating the chracters in the input text 
+      // iterating the characters in the input text 
       for( let i in text){
-        //if its free space keeping  is as it is and appending it to result
-        if(text[i]===' ') { 
-          result+=' '
+        //if its free space/newline/special characters keeping  is as it is and appending it to result
+        if(text[i]===' ' || text[i]==='\n' || !(text[i].charCodeAt(0)>=97 && text[i].charCodeAt(0)<=122) ) { 
+          result+=text[i];
           continue;
         }
         //if char and then appending the character corresponding to this char from lookup table
