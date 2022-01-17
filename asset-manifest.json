@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Encipher-Decipher/static/css/main.f9bfa512.css",
+    "main.js": "/Encipher-Decipher/static/js/main.c1c491a3.js",
+    "static/js/787.d26ee0e9.chunk.js": "/Encipher-Decipher/static/js/787.d26ee0e9.chunk.js",
+    "index.html": "/Encipher-Decipher/index.html",
+    "main.f9bfa512.css.map": "/Encipher-Decipher/static/css/main.f9bfa512.css.map",
+    "main.c1c491a3.js.map": "/Encipher-Decipher/static/js/main.c1c491a3.js.map",
+    "787.d26ee0e9.chunk.js.map": "/Encipher-Decipher/static/js/787.d26ee0e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9bfa512.css",
+    "static/js/main.c1c491a3.js"
+  ]
+}
